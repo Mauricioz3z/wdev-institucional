@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import { COPY } from '../data/copy.js';
 
-const active = ref('#inicio');
+const active = ref('/#inicio');
 
 function handleClick(href) {
   active.value = href;
@@ -12,7 +12,7 @@ function handleClick(href) {
 <template>
   <div class="nav-shell">
     <nav class="nav">
-      <a href="#inicio" class="brand">
+      <a href="/#inicio" class="brand">
         <span class="brand-mark">W</span>
         <span>Wdev <span style="color: var(--ink-mute); font-weight: 500">Digital</span></span>
       </a>
@@ -27,7 +27,7 @@ function handleClick(href) {
           {{ item.label }}
         </a>
       </div>
-      <a href="#contato" class="btn btn-dark" style="height: 44px">
+      <a href="/#contato" class="btn btn-dark" style="height: 44px">
         Agendar reunião
         <span class="arrow">→</span>
       </a>

@@ -108,7 +108,7 @@ async function submit() {
         </div>
 
         <form class="cta-form" @submit.prevent="submit" novalidate>
-          <h4>Enviar resumo do projeto</h4>
+          <h3>Enviar resumo do projeto</h3>
 
           <div class="field">
             <label for="nome">Nome e empresa</label>

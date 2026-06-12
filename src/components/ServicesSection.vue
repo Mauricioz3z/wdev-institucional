@@ -32,8 +32,12 @@ const tab = ref(0);
         <div class="service-feature">
           <div class="service-photo">
             <img
-              src="/assets/services-dashboard.png"
-              alt="Dashboard de resumo de negociações em sistema sob medida"
+              src="/assets/services-dashboard.webp"
+              alt="Dashboard de gestão de negociações em sistema sob medida para o agronegócio"
+              width="1660"
+              height="947"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div>

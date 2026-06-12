@@ -18,7 +18,7 @@ const year = new Date().getFullYear();
       </div>
       <div v-for="(col, i) in f.cols" :key="i" class="foot-col">
         <h5>{{ col.h }}</h5>
-        <a v-for="(l, j) in col.links" :key="j" href="#">{{ l }}</a>
+        <a v-for="(l, j) in col.links" :key="j" :href="l.href">{{ l.label }}</a>
       </div>
     </div>
     <div class="foot-bottom">

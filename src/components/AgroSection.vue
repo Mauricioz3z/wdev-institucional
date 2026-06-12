@@ -15,14 +15,26 @@ const a = COPY.agro;
           </h2>
           <p style="margin-top: 18px">{{ a.sub }}</p>
           <div class="agro-segments">
-            <div v-for="(seg, i) in a.segments" :key="i" class="agro-seg">{{ seg }}</div>
+            <a
+              v-for="(seg, i) in a.segments"
+              :key="i"
+              :href="seg.href"
+              class="agro-seg"
+              style="text-decoration: none"
+            >
+              {{ seg.label }}
+            </a>
           </div>
         </div>
 
         <div class="agro-vis">
           <img
-            src="/assets/agro-collage.png"
+            src="/assets/agro-collage.webp"
             alt="Mosaico do agronegócio: lavoura, pecuária, confinamento, logística e armazenagem"
+            width="1254"
+            height="1254"
+            loading="lazy"
+            decoding="async"
           />
           <!-- <div class="agro-badge">{{ a.badge }}</div>
           <div class="agro-mini">

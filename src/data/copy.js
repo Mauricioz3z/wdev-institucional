@@ -5,12 +5,12 @@ export const COPY = {
   },
 
   nav: [
-    { label: 'Início', href: '#inicio' },
-    { label: 'Serviços', href: '#servicos' },
-    { label: 'Agro', href: '#agro' },
-    { label: 'Processo', href: '#processo' },
-    { label: 'Por que nós', href: '#por-que' },
-    { label: 'Contato', href: '#contato' },
+    { label: 'Início', href: '/#inicio' },
+    { label: 'Serviços', href: '/#servicos' },
+    { label: 'Soluções', href: '/solucoes/' },
+    { label: 'Processo', href: '/#processo' },
+    { label: 'Por que nós', href: '/#por-que' },
+    { label: 'Contato', href: '/#contato' },
   ],
 
   hero: {
@@ -70,14 +70,14 @@ export const COPY = {
     eyebrow: 'Foco de atuação',
     sub: 'Conhecemos o vocabulário e o ritmo da operação: safra, talhão, lote, romaneio, balança, frota, contrato. Atendemos também outros segmentos, mas o agro é onde temos mais profundidade.',
     segments: [
-      'Fazendas e grupos agrícolas',
-      'Pecuária e confinamento',
-      'Transportadoras do agro',
-      'Cooperativas',
-      'Empresas de insumos',
-      'Logística rural',
-      'Agroindústrias',
-      'Outros segmentos sob demanda',
+      { label: 'Fazendas e grupos agrícolas', href: '/solucoes/sistema-para-fazenda/' },
+      { label: 'Pecuária e confinamento', href: '/solucoes/software-para-pecuaria/' },
+      { label: 'Transportadoras do agro', href: '/solucoes/sistema-para-transportadora-agro/' },
+      { label: 'Cooperativas', href: '/solucoes/sistema-para-cooperativa/' },
+      { label: 'Empresas de insumos', href: '/solucoes/sistema-para-empresa-de-insumos/' },
+      { label: 'Logística rural', href: '/solucoes/sistema-para-transportadora-agro/' },
+      { label: 'Agroindústrias', href: '/solucoes/software-para-agroindustria/' },
+      { label: 'Outros segmentos sob demanda', href: '/#contato' },
     ],
     badge: 'Foco · Agro',
     miniLabel: 'Mapeamento típico',
@@ -130,9 +130,34 @@ export const COPY = {
 
   footer: {
     cols: [
-      { h: 'Serviços', links: ['Sistemas web e nuvem', 'ERPs e plataformas internas', 'Integrações', 'Modernização de legado', 'Automação de processos'] },
-      { h: 'Empresa', links: ['Sobre a Wdev', 'Como trabalhamos', 'Por que Wdev', 'Contato'] },
-      { h: 'Contato', links: ['(18) 99701-8782', 'wdevdigital.com.br', 'Brasil — atendimento remoto'] },
+      {
+        h: 'Soluções',
+        links: [
+          { label: 'Sistema para fazenda', href: '/solucoes/sistema-para-fazenda/' },
+          { label: 'Software para pecuária', href: '/solucoes/software-para-pecuaria/' },
+          { label: 'Sistema para transportadora', href: '/solucoes/sistema-para-transportadora-agro/' },
+          { label: 'Sistema para cooperativa', href: '/solucoes/sistema-para-cooperativa/' },
+          { label: 'Sistema para revenda de insumos', href: '/solucoes/sistema-para-empresa-de-insumos/' },
+          { label: 'Software para agroindústria', href: '/solucoes/software-para-agroindustria/' },
+        ],
+      },
+      {
+        h: 'Empresa',
+        links: [
+          { label: 'Serviços', href: '/#servicos' },
+          { label: 'Como trabalhamos', href: '/#processo' },
+          { label: 'Por que Wdev', href: '/#por-que' },
+          { label: 'Contato', href: '/#contato' },
+        ],
+      },
+      {
+        h: 'Contato',
+        links: [
+          { label: '(18) 99701-8782', href: 'tel:+5518997018782' },
+          { label: 'wdevdigital.com.br', href: 'https://wdevdigital.com.br/' },
+          { label: 'Brasil — atendimento remoto', href: '/#contato' },
+        ],
+      },
     ],
     seoLine: 'Wdev Digital · Software sob medida para o agronegócio · Sistemas web, ERPs, integrações e modernização.',
   },

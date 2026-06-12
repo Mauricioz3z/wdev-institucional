@@ -966,7 +966,7 @@ section + section {
   flex-direction: column;
   gap: 14px;
 }
-.cta-form h4 {
+.cta-form h3 {
   font-size: 14px;
   font-weight: 600;
 }

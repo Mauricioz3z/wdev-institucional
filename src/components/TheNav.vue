@@ -12,9 +12,8 @@ function handleClick(href) {
 <template>
   <div class="nav-shell">
     <nav class="nav">
-      <a href="/#inicio" class="brand">
-        <span class="brand-mark">W</span>
-        <span>Wdev <span style="color: var(--ink-mute); font-weight: 500">Digital</span></span>
+      <a href="/#inicio" class="brand" aria-label="HTR Sistemas — página inicial">
+        <img src="/logo-htr.png" alt="HTR Sistemas" class="brand-logo" width="180" height="34" />
       </a>
       <div class="nav-links">
         <a

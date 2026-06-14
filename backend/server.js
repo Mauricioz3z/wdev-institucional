@@ -44,7 +44,7 @@ app.post('/enviar', async (req, res) => {
             .join('');
 
         await transporter.sendMail({
-            from: `Site WDev <${process.env.ZOHO_EMAIL}>`,
+            from: `Site HTR Sistemas <${process.env.ZOHO_EMAIL}>`,
             to: process.env.ZOHO_EMAIL,
             replyTo: dados.email,
             subject: 'Novo Lead',

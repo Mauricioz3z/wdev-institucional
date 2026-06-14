@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Site institucional Wdev Digital em Vue 3 + Vite, integrado à api-whats",
+  "description": "Site institucional HTR Sistemas em Vue 3 + Vite, integrado à api-whats",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

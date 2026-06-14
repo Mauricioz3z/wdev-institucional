@@ -67,7 +67,7 @@ function pageHtml({ title, description, path, segment }) {
         url,
         provider: {
           '@type': 'Organization',
-          name: 'Wdev Digital',
+          name: 'HTR Sistemas',
           url: `${SITE_URL}/`,
           telephone: '+55-18-99701-8782',
         },
@@ -103,7 +103,7 @@ function pageHtml({ title, description, path, segment }) {
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content="Wdev Digital" />
+    <meta property="og:site_name" content="HTR Sistemas" />
     <meta property="og:url" content="${url}" />
     <meta property="og:title" content="${title}" />
     <meta property="og:description" content="${description}" />
@@ -142,7 +142,7 @@ async function writePage(relPath, html) {
 await writePage(
   'solucoes/index.html',
   pageHtml({
-    title: 'Soluções de Automação por Segmento do Agronegócio | Wdev',
+    title: 'Soluções de Automação por Segmento do Agronegócio | HTR Sistemas',
     description:
       'Software sob medida para fazendas, pecuária, transportadoras, cooperativas, revendas de insumos e agroindústrias. Veja a solução para o seu segmento.',
     path: '/solucoes/',

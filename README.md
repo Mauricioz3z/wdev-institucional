@@ -1,6 +1,6 @@
-# 🌱 Wdev Digital — Site Institucional (Vue 3 + Vite)
+# 🌱 HTR Sistemas — Site Institucional (Vue 3 + Vite)
 
-Site institucional da **Wdev Digital**, baseado no handoff de design entregue por Claude Design.
+Site institucional da **HTR Sistemas**, baseado no handoff de design entregue por Claude Design.
 Construído com **Vue 3 (Composition API) + Vite**, sem framework de CSS — apenas CSS custom properties e o design system do handoff.
 
 O formulário de contato consome a API local **`api-whats`** e dispara a mensagem para o WhatsApp Business do dono do site.
@@ -161,4 +161,4 @@ Toda variável usada pelo browser **precisa** começar com `VITE_` (regra do Vit
 
 ## 📜 Licença
 
-Uso interno — Wdev Digital.
+Uso interno — HTR Sistemas.

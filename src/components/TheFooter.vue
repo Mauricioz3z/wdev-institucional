@@ -10,10 +10,10 @@ const year = new Date().getFullYear();
     <div class="foot-grid">
       <div>
         <div class="foot-brand">
-          Wdev <span style="color: #8aa092; font-weight: 400">Digital</span>
+          HTR <span style="color: #8aa092; font-weight: 400">Sistemas</span>
         </div>
         <div class="foot-tag">
-          {{ COPY.brand.slogan }} — software sob medida para o agronegócio e para empresas que operam em escala.
+          {{ COPY.brand.slogan }} — engenharia de software sob medida para o agronegócio de grande porte.
         </div>
       </div>
       <div v-for="(col, i) in f.cols" :key="i" class="foot-col">
@@ -22,7 +22,7 @@ const year = new Date().getFullYear();
       </div>
     </div>
     <div class="foot-bottom">
-      <div>© {{ year }} Wdev Digital. CNPJ 66.196.844/0001-68</div>
+      <div>© {{ year }} HTR Sistemas. CNPJ 66.196.844/0001-68</div>
       <div
         style="font-family: 'JetBrains Mono', monospace; letter-spacing: 0.08em; text-transform: uppercase"
       >

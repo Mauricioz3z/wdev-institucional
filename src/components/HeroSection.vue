@@ -18,8 +18,8 @@ const h = COPY.hero;
               {{ h.eyebrow }}
             </span>
             <h1 style="margin-top: 22px">
-              Automação e sistemas sob medida<br />
-              para quem vive do <em>campo</em>.
+              Sistemas corporativos sob medida<br />
+              para o agronegócio de <em>precisão</em>.
             </h1>
             <p class="hero-sub">{{ h.sub }}</p>
             <div class="hero-ctas">
@@ -42,7 +42,7 @@ const h = COPY.hero;
           <div class="hero-photo">
             <img
               src="/assets/hero-campo.webp"
-              alt="Operador no campo usando sistema de automação agro da Wdev Digital em smartphone"
+              alt="Operação do agronegócio usando sistema corporativo sob medida da HTR Sistemas em smartphone"
               width="768"
               height="768"
               loading="eager"

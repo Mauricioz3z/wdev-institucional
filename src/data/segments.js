@@ -8,7 +8,7 @@ export const SEGMENTS = {
   'sistema-para-fazenda': {
     slug: 'sistema-para-fazenda',
     shortLabel: 'Fazendas e grupos agrícolas',
-    metaTitle: 'Sistema para Fazenda — Gestão Agrícola Sob Medida | Wdev',
+    metaTitle: 'Sistema para Fazenda — Gestão Agrícola Sob Medida | HTR Sistemas',
     metaDescription:
       'Sistema sob medida para fazendas e grupos agrícolas: custo por talhão, safra, romaneio, estoque de insumos e frota em um só lugar. Agende uma conversa.',
     eyebrow: 'Soluções · Fazendas e grupos agrícolas',
@@ -63,9 +63,9 @@ export const SEGMENTS = {
   'software-para-pecuaria': {
     slug: 'software-para-pecuaria',
     shortLabel: 'Pecuária e confinamento',
-    metaTitle: 'Software para Pecuária e Confinamento Sob Medida | Wdev',
+    metaTitle: 'Software para Pecuária e Confinamento Sob Medida | HTR Sistemas',
     metaDescription:
-      'Software sob medida para pecuária e confinamento: lotes, currais, trato, GMD, protocolos sanitários e custo da arroba sob controle. Fale com a Wdev.',
+      'Software sob medida para pecuária e confinamento: lotes, currais, trato, GMD, protocolos sanitários e custo da arroba sob controle. Fale com a HTR.',
     eyebrow: 'Soluções · Pecuária e confinamento',
     h1: 'Software sob medida para pecuária e confinamento',
     intro:
@@ -118,7 +118,7 @@ export const SEGMENTS = {
   'sistema-para-transportadora-agro': {
     slug: 'sistema-para-transportadora-agro',
     shortLabel: 'Transportadoras e logística rural',
-    metaTitle: 'Sistema para Transportadora do Agro — Frota e Fretes | Wdev',
+    metaTitle: 'Sistema para Transportadora do Agro — Frota e Fretes | HTR Sistemas',
     metaDescription:
       'Sistema sob medida para transportadoras do agro: fretes, romaneio x ticket de balança, frota, abastecimento e integração fiscal sem planilha. Agende uma conversa.',
     eyebrow: 'Soluções · Transporte e logística rural',
@@ -173,9 +173,9 @@ export const SEGMENTS = {
   'sistema-para-cooperativa': {
     slug: 'sistema-para-cooperativa',
     shortLabel: 'Cooperativas',
-    metaTitle: 'Sistema para Cooperativa Agrícola Sob Medida | Wdev Digital',
+    metaTitle: 'Sistema para Cooperativa Agrícola Sob Medida | HTR Sistemas',
     metaDescription:
-      'Sistema sob medida para cooperativas: recebimento, classificação, saldo por cooperado, contratos, fixações e portal do cooperado integrados. Fale com a Wdev.',
+      'Sistema sob medida para cooperativas: recebimento, classificação, saldo por cooperado, contratos, fixações e portal do cooperado integrados. Fale com a HTR.',
     eyebrow: 'Soluções · Cooperativas',
     h1: 'Sistema sob medida para cooperativas agrícolas',
     intro:
@@ -228,7 +228,7 @@ export const SEGMENTS = {
   'sistema-para-empresa-de-insumos': {
     slug: 'sistema-para-empresa-de-insumos',
     shortLabel: 'Revendas e empresas de insumos',
-    metaTitle: 'Sistema para Revenda de Insumos Agrícolas | Wdev Digital',
+    metaTitle: 'Sistema para Revenda de Insumos Agrícolas | HTR Sistemas',
     metaDescription:
       'Sistema sob medida para revendas de insumos: campanhas de venda, crédito do produtor, barter, entregas e comissão de RTV integrados ao ERP. Agende uma conversa.',
     eyebrow: 'Soluções · Revendas e insumos',
@@ -283,9 +283,9 @@ export const SEGMENTS = {
   'software-para-agroindustria': {
     slug: 'software-para-agroindustria',
     shortLabel: 'Agroindústrias',
-    metaTitle: 'Software para Agroindústria — Produção e Rastreio | Wdev',
+    metaTitle: 'Software para Agroindústria — Produção e Rastreio | HTR Sistemas',
     metaDescription:
-      'Software sob medida para agroindústrias: recepção, ordens de produção, rendimento, perdas e rastreabilidade por lote integrados ao ERP. Fale com a Wdev.',
+      'Software sob medida para agroindústrias: recepção, ordens de produção, rendimento, perdas e rastreabilidade por lote integrados ao ERP. Fale com a HTR.',
     eyebrow: 'Soluções · Agroindústrias',
     h1: 'Software sob medida para agroindústrias',
     intro:

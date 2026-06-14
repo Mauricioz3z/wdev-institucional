@@ -1,7 +1,7 @@
 export const COPY = {
   brand: {
-    name: 'Wdev Digital',
-    slogan: 'Software sob medida. Resultado sob controle.',
+    name: 'HTR Sistemas',
+    slogan: 'Escopo definido. Resultado previsível.',
   },
 
   nav: [
@@ -14,11 +14,11 @@ export const COPY = {
   ],
 
   hero: {
-    eyebrow: 'Software sob medida para o agronegócio',
-    sub: 'Desenvolvemos sistemas web, ERPs internos, integrações e modernizações para fazendas, cooperativas, transportadoras e agroindústrias. Escopo, prazo e investimento definidos antes da primeira linha de código.',
+    eyebrow: 'Engenharia de software para o agronegócio',
+    sub: 'Sistemas corporativos, ERPs internos e integrações industriais para grandes produtores, cooperativas, transportadoras e agroindústrias. Escopo fechado, investimento definido e entrega garantida em contrato — toda a arquitetura desenhada antes da primeira linha de código.',
     ctaPrimary: 'Agendar reunião',
     ctaSecondary: 'Como trabalhamos',
-    tag: 'Especialistas Agro · Brasil',
+    tag: 'Engenharia Corporativa · Agro · Brasil',
     stats: [
       { v: '100%', l: 'Projetos sob medida, sem template' },
       { v: 'Agro', l: 'Especialização real no setor' },
@@ -101,7 +101,7 @@ export const COPY = {
   },
 
   why: {
-    eyebrow: 'Por que Wdev Digital',
+    eyebrow: 'Por que HTR Sistemas',
     title: 'Critérios que importam quando o software vai sustentar a operação.',
     sub: 'Não vendemos pacote pronto, nem promessa de virada de chave. Vendemos um processo de engenharia, com expectativas alinhadas e responsabilidades claras.',
     cards: [
@@ -146,7 +146,7 @@ export const COPY = {
         links: [
           { label: 'Serviços', href: '/#servicos' },
           { label: 'Como trabalhamos', href: '/#processo' },
-          { label: 'Por que Wdev', href: '/#por-que' },
+          { label: 'Por que HTR', href: '/#por-que' },
           { label: 'Contato', href: '/#contato' },
         ],
       },
@@ -159,6 +159,6 @@ export const COPY = {
         ],
       },
     ],
-    seoLine: 'Wdev Digital · Software sob medida para o agronegócio · Sistemas web, ERPs, integrações e modernização.',
+    seoLine: 'HTR Sistemas · Engenharia de software sob medida para o agronegócio · Sistemas corporativos, ERPs, integrações industriais e modernização.',
   },
 };

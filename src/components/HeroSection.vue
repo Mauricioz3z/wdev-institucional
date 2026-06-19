@@ -9,7 +9,7 @@ const h = COPY.hero;
     <div class="wrap">
       <div class="hero-grid">
         <div class="hero-card">
-          <div class="hero-tag">{{ h.tag }}</div>
+        <!--  <div class="hero-tag">{{ h.tag }}</div> -->
           <div>
             <span class="eyebrow" style="color: var(--lime)">
               <span
